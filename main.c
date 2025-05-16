@@ -15,7 +15,7 @@ void insere_cliente() {
     scanf("%s", clientes[total_clientes]);
     total_clientes++;  
 }
-
+//ola
 void insere_produto() {
     if (total_produtos >= 10) {
         printf("Lista de produtos cheia!\n");
