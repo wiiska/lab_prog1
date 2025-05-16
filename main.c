@@ -34,6 +34,41 @@ void lista_cliente() {
     }
 }
 
+void exclui_cliente() {
+    int indice;
+    printf("Digite o número do cliente a excluir (1 a %d):\n", total_clientes);
+    scanf("%d", &indice);
+    
+    if(indice < 1 || indice > total_clientes) {
+        printf("Número de cliente inválido!\n");
+        return;
+    }
+
+    // Ajustar para índice do array
+    indice--;
+
+    for(int i = indice; i < total_clientes - 1; i++) {
+        strcpy(clientes[i], clientes[i + 1]);
+    }
+    total_clientes--;
+    printf("Cliente excluído com sucesso.\n");
+}
+
+void atualiza_cliente() {
+    int indice;
+    printf("Digite o número do cliente a atualizar (1 a %d):\n", total_clientes);
+    scanf("%d", &indice);
+    
+    if(indice < 1 || indice > total_clientes) {
+        printf("Número de cliente inválido!\n");
+        return;
+    }
+
+    printf("Digite o novo nome do cliente:\n");
+    scanf("%s", clientes[indice - 1]);
+    printf("Cliente atualizado com sucesso.\n");
+}
+
 int main()
 {
     int escolha;
@@ -43,6 +78,8 @@ int main()
     printf("1 - Inserir Cliente: \n");
     printf("2 - Inserir Produto: \n");
     printf("3 - Listar clientes: \n");
+    printf("4 - Exclui cliente: \n");
+    printf("5 - Atualiza cliente: \n");
     scanf("%d", & escolha);
     
     if(escolha == 1){
@@ -53,6 +90,12 @@ int main()
     }
     else if(escolha == 3){
         lista_cliente();
+    }
+    else if(escolha == 4){
+        exclui_cliente();
+    }
+    else if(escolha == 5){
+        atualiza_cliente();
     }
     }while(escolha != 0);
     
