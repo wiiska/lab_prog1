@@ -2,9 +2,6 @@
 
 <br />
 <div align="center">
-  <a href="https://github.com/github_username/repo_name">
-    <img src="images/logo.png" alt="Logo" width="80" height="80">
-  </a>
 
 <h3 align="center">Laboratório de Programação 1 período</h3>
 
@@ -43,7 +40,7 @@
 
 ### Feito com
 
-* <img src="images/C.png" alt="C" width="80" height="80">
+* <img src="c-programming.png" alt="C" width="80" height="80">
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
