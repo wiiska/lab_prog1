@@ -15,7 +15,7 @@
 
 <!-- TABLE OF CONTENTS -->
 <details>
-  <summary>Table of Contents</summary>
+  <summary>Conteúdos</summary>
   <ol>
     <li>
       <a href="#about-the-project">Sobre o projeto</a>
@@ -50,6 +50,6 @@
 
 Henrique Zanela de Almeida - @henrique_zanela - henrique.zanela@gmail.com
 
-Link do Projeto: [https://github.com/github_username/repo_name](https://github.com/github_username/repo_name)
+Link do Projeto: [https://github.com/wiiska/lab_prog1](https://github.com/wiiska/lab_prog1)
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
