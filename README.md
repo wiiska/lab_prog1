@@ -3,7 +3,7 @@
 <br />
 <div align="center">
 
-<h3 align="center">Laboratório de Programação 1 período</h3>
+<h3 align="center">Laboratório de Programação 1</h3>
 
   <p align="center">
     Projeto desenvolvido nas aulas de Laboratório de Programação
